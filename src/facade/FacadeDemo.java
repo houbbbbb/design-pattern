@@ -33,7 +33,7 @@ class FacadeCapImpl3 implements FacadeCap{
     }
 }
 
-// 统一外部调用接口
+// 外部统一调用接口
 interface Facade{
     void play1();
     void play2();
