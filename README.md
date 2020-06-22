@@ -5,5 +5,6 @@
 4. 桥接模式：BridgeDemo
 5. 职责链模式：ChainDemo
 6. 单例模式：Singleton
+7. 观察者模式：Observer
 
 ## will continous to update
