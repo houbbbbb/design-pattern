@@ -6,5 +6,6 @@
 5. 职责链模式：ChainDemo
 6. 单例模式：Singleton
 7. 观察者模式：Observer
+8. 中介者模式：Mediator
 
 ## will continous to update
