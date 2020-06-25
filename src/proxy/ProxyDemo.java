@@ -12,7 +12,7 @@ import java.lang.reflect.Proxy;
 /**
  * @author hbw
  * @date 2020-06-25 07:51
- * 为其他对象提供一种代理以控制对这个对象的访问
+ * 为对象提供一种代理以控制对这个对象的访问
  */
 public class ProxyDemo {
 }
