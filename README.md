@@ -8,5 +8,6 @@
 7. 观察者模式：Observer
 8. 中介者模式：Mediator
 9. 代理模式：ProxyDemo
+10. 享元模式：FlyweightDemo
 
 ## will continous to update
