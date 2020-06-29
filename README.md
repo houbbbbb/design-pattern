@@ -9,6 +9,6 @@
 8. 中介者模式：Mediator
 9. 代理模式：ProxyDemo
 10. 享元模式：FlyweightDemo
-11. 构建这模式：BuilderDemo
+11. 构建者模式：BuilderDemo
 
 ## will continous to update
