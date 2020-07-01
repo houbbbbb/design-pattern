@@ -2,7 +2,7 @@ package designpattern.factory;
 
 /**
  * @author : hbw
- * @desctiption : 提供一个创建对象的接口，根据需求创建不同的子类对象
+ * @desctiption : 提供一个创建对象的接口，而不用制定具体的类。
  * @date : 2020-06-29 16:48
  */
 public class FactoryDemo {
