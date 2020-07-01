@@ -1,4 +1,4 @@
-package facade;
+package designpattern.facade;
 
 /**
  * @author : hbw

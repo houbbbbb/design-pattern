@@ -1,4 +1,4 @@
-package chain;
+package designpattern.chain;
 
 import java.util.Iterator;
 import java.util.LinkedList;

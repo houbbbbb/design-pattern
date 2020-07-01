@@ -1,4 +1,4 @@
-package bridge;
+package designpattern.bridge;
 
 /**
  * @author : hbw

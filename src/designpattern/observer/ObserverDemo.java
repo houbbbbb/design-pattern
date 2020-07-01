@@ -1,6 +1,5 @@
-package observer;
+package designpattern.observer;
 
-import java.util.Observable;
 import java.util.Vector;
 
 /**

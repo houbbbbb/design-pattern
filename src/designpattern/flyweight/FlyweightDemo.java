@@ -1,4 +1,4 @@
-package flyweight;
+package designpattern.flyweight;
 
 import java.util.ArrayList;
 import java.util.HashMap;

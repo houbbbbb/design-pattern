@@ -1,4 +1,4 @@
-package proxy;
+package designpattern.proxy;
 
 
 import net.sf.cglib.proxy.Enhancer;

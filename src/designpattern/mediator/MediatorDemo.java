@@ -1,4 +1,4 @@
-package mediator;
+package designpattern.mediator;
 
 /**
  * @author : hbw

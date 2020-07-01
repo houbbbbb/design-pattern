@@ -1,4 +1,4 @@
-package adapter;
+package designpattern.adapter;
 
 /**
  * @author : hbw

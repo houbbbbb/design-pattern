@@ -1,4 +1,4 @@
-package singleton;
+package designpattern.singleton;
 
 /**
  * @author : hbw
