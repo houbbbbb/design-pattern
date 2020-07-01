@@ -1,4 +1,4 @@
-# design-pattern
+# designpattern
 1. 适配器模式：AdapterDemo
 2. 合成模式：CompositeDemo
 3. 外观模式：FacadeDemo
@@ -10,5 +10,10 @@
 9. 代理模式：ProxyDemo
 10. 享元模式：FlyweightDemo
 11. 构建者模式：BuilderDemo
+12. 工厂模式：FactoryDemo
+13. 抽象工厂模式：AbstractFactoryDemo
+
+# algorithm
+1. 一致性哈希算法：ConsistentHash
 
 ## will continous to update
