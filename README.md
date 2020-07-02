@@ -12,6 +12,7 @@
 11. 构建者模式：BuilderDemo
 12. 工厂模式：FactoryDemo
 13. 抽象工厂模式：AbstractFactoryDemo
+14. 原型模式：PrototypeDemo
 
 # algorithm
 1. 一致性哈希算法：ConsistentHash
