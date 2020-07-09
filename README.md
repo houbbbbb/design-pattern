@@ -15,6 +15,7 @@
 14. 原型模式：PrototypeDemo
 15. 状态模式：StateDemo
 16. 策略模式：StrategyDemo
+17. 命令模式：CommandDemo
 
 # algorithm
 1. 一致性哈希算法：ConsistentHash
