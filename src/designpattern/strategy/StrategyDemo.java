@@ -1,8 +1,5 @@
 package designpattern.strategy;
 
-import java.net.ContentHandler;
-import java.util.concurrent.ConcurrentSkipListSet;
-
 /**
  * @todo: 定义一系列算法，把它们一个个封装起来，并且可以相互替换
  * @author: hbw
