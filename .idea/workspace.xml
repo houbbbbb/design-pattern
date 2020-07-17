@@ -1,32 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="Flyweight">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/state/StateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/template/TemplateDemo.java" afterDir="false" />
+    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="command">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/adapter/AdapterDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/adapter/ExistClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/adapter/ExistInf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/adapter/MyAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/adapter/NewInf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/adapter/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/adapter/UseClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/composite/Component.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/composite/Composite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/composite/CompositeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/composite/Leaf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/composite/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/facade/Facade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/facade/FacadeCap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/facade/FacadeCapImpl1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/facade/FacadeCapImpl2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/facade/FacadeCapImpl3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/facade/FacadeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/facade/FacadeImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/facade/FacadeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/iterator/IteratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/iterator/IteratorDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +13,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/designpattern/iterator/IteratorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding>
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +85,12 @@
         <option value="$PROJECT_DIR$/src/nio/SelectorDemo.java" />
         <option value="$PROJECT_DIR$/src/designpattern/template/TemplateDemo.java" />
         <option value="$PROJECT_DIR$/src/designpattern/state/StateDemo.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/strategy/StrategyDemo.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/command/CommandDemo.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/interpreter/InterpreterDemo.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/decorator/DecoratorDemo.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/filter/FilterDemo.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/iterator/IteratorDemo.java" />
       </list>
     </option>
   </component>
@@ -103,7 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,17 +119,23 @@
               <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594093164646" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594950599883" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -146,13 +155,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StateDemo">
-    <configuration name="ChannelDemo2$ChannelClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nio.ChannelDemo2$ChannelClient" />
+  <component name="RunManager" selected="Application.IteratorDemo">
+    <configuration name="CommandDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.command.CommandDemo" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nio.*" />
+          <option name="PATTERN" value="designpattern.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChannelDemo2$ChannelServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nio.ChannelDemo2$ChannelServer" />
+    <configuration name="DecoratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.decorator.DecoratorDemo" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nio.*" />
+          <option name="PATTERN" value="designpattern.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectorDemo$ChannelServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nio.SelectorDemo$ChannelServer" />
+    <configuration name="FilterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.filter.FilterDemo" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nio.*" />
+          <option name="PATTERN" value="designpattern.filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.state.StateDemo" />
+    <configuration name="InterpreterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.interpreter.InterpreterDemo" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.state.*" />
+          <option name="PATTERN" value="designpattern.interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.template.TemplateDemo" />
+    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.iterator.IteratorDemo" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.template.*" />
+          <option name="PATTERN" value="designpattern.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StateDemo" />
-        <item itemvalue="Application.TemplateDemo" />
-        <item itemvalue="Application.ChannelDemo2$ChannelClient" />
-        <item itemvalue="Application.SelectorDemo$ChannelServer" />
-        <item itemvalue="Application.ChannelDemo2$ChannelServer" />
+        <item itemvalue="Application.IteratorDemo" />
+        <item itemvalue="Application.FilterDemo" />
+        <item itemvalue="Application.DecoratorDemo" />
+        <item itemvalue="Application.InterpreterDemo" />
+        <item itemvalue="Application.CommandDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +258,13 @@
       <workItem from="1593420343055" duration="20504000" />
       <workItem from="1593679417145" duration="31675000" />
       <workItem from="1593997729551" duration="4074000" />
-      <workItem from="1594086046883" duration="5557000" />
+      <workItem from="1594086046883" duration="14848000" />
+      <workItem from="1594275622639" duration="27000" />
+      <workItem from="1594345080727" duration="4517000" />
+      <workItem from="1594629585012" duration="3283000" />
+      <workItem from="1594789203002" duration="1782000" />
+      <workItem from="1594865632734" duration="3964000" />
+      <workItem from="1594947824431" duration="2054000" />
     </task>
     <task id="LOCAL-00001" summary="design-pattern: adapter composite facade">
       <created>1592279999044</created>
@@ -377,11 +392,60 @@
       <option name="project" value="LOCAL" />
       <updated>1593773954743</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="state">
+      <created>1594093202437</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1594093202437</updated>
+    </task>
+    <task id="LOCAL-00020" summary="strategy">
+      <created>1594183358446</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1594183358446</updated>
+    </task>
+    <task id="LOCAL-00021" summary="command">
+      <created>1594260619826</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1594260619826</updated>
+    </task>
+    <task id="LOCAL-00022" summary="interpreter">
+      <created>1594348504380</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1594348504380</updated>
+    </task>
+    <task id="LOCAL-00023" summary="decorator">
+      <created>1594630743576</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1594630743576</updated>
+    </task>
+    <task id="LOCAL-00024" summary="filter">
+      <created>1594869079427</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1594869079427</updated>
+    </task>
+    <task id="LOCAL-00025" summary="iterator">
+      <created>1594950550781</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1594950550781</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135219000" />
+    <option name="totallyTimeSpent" value="160137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,8 +458,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20661823" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18079096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,12 +470,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394673" weight="0.3580247" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49394673" visible="true" weight="0.3809524" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49394673" visible="true" weight="0.37037036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329806" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49233252" weight="0.35449734" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49233252" weight="0.3915344" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5076675" side_tool="true" weight="0.35097003" />
@@ -426,7 +491,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17029862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20661823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -435,16 +500,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394673" weight="0.2857143" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49394673" weight="0.46208113" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394673" weight="0.3580247" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49394673" weight="0.3809524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329806" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49233252" visible="true" weight="0.35097003" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49233252" visible="true" weight="0.4303351" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5076675" side_tool="true" visible="true" weight="0.35097003" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5076675" side_tool="true" weight="0.35097003" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329806" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -476,7 +541,14 @@
     <MESSAGE value="Memento" />
     <MESSAGE value="Flyweight" />
     <MESSAGE value="nio" />
-    <option name="LAST_COMMIT_MESSAGE" value="nio" />
+    <MESSAGE value="state" />
+    <MESSAGE value="strategy" />
+    <MESSAGE value="command" />
+    <MESSAGE value="interpreter" />
+    <MESSAGE value="decorator" />
+    <MESSAGE value="filter" />
+    <MESSAGE value="iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="iterator" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/designpattern/adapter/AdapterDemo.java">
@@ -585,13 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/bin/java8/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="751" column="7" lean-forward="true" selection-start-line="751" selection-start-column="7" selection-end-line="751" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -939,16 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nio/ChannelDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nio/SelectorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -997,6 +1052,101 @@
             <element signature="e#1104#1105#0" expanded="true" />
             <element signature="e#1143#1144#0" expanded="true" />
             <element signature="e#1179#1180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/strategy/StrategyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/bin/java8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="755" column="19" lean-forward="true" selection-start-line="755" selection-start-column="19" selection-end-line="755" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/interpreter/InterpreterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/command/CommandDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nio/ChannelDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/DecoratorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/filter/FilterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="e#2992#2993#0" expanded="true" />
+            <element signature="e#3061#3062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/iterator/IteratorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
           </folding>
         </state>
       </provider>

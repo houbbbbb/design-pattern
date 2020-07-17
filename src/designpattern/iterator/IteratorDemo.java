@@ -1,7 +1,7 @@
 package designpattern.iterator;
 
 /**
- * @todo: 遍历对象内部元素的内容，无需暴露内部表示
+ * @todo: 遍历对象内部元素的内容，而无需暴露内部表示
  * @author: hbw
  * @date: 2020/7/17
  **/
