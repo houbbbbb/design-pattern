@@ -19,6 +19,7 @@
 18. 解释器模式：InterpreterDemo
 19. 装饰器模式：DecoratorDemo
 20. 过滤器模式：FilterDemo
+21. 迭代器模式：IteratorDemo
 
 # algorithm
 1. 一致性哈希算法：ConsistentHash
