@@ -22,6 +22,7 @@
 21. 迭代器模式：IteratorDemo
 22. 空对象模式：NullDemo
 23. MVC模式：MvcDemo
+24. 业务代表模式：BusinessDelegateDemo
 
 # algorithm
 1. 一致性哈希算法：ConsistentHash
