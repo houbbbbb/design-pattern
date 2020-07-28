@@ -24,6 +24,7 @@
 23. MVC模式：MvcDemo
 24. 业务代表模式：BusinessDelegateDemo
 25. 组合实体模式：CompositeEntityDemo
+26. 前端控制器模式：FrontControllerDemo
 
 # algorithm
 1. 一致性哈希算法：ConsistentHash
