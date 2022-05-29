@@ -1,5 +1,8 @@
 package javapattern.simplefactory;
 
+/**
+ * @author 86136
+ */
 public class Triangle
         implements Shape {
 

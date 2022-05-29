@@ -10,16 +10,16 @@ public class SimpleFactoryTest {
     @Test
     public void test() {
 
-        exc(Shape.Type.CIRCLE);
+        exc("circle");
 
-        exc(Shape.Type.SQUARE);
+        exc("square");
 
-        exc(Shape.Type.TRIANGLE);
+        exc("triangle");
     }
 
-    private void exc(Shape.Type type) {
+    private void exc(String name) {
 
-        Shape shape = Shape.getInstance(type);
+        Shape shape = Shape.getInstance(name);
         shape.drawl();
         shape.erase();
     }

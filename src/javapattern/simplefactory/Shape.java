@@ -1,5 +1,9 @@
 package javapattern.simplefactory;
 
+import com.sun.istack.internal.NotNull;
+import javapattern.util.BeanUtils;
+import javapattern.util.PropertyUtils;
+
 /**
  * @author 86136
  */
@@ -16,36 +20,20 @@ public interface Shape {
     void erase();
 
     /**
-     * 工厂方法，获取实体
-     * @param type
+     * 获取实体对象
+     * @param name
      * @return
      */
-    static Shape getInstance(
-            Type type) {
+    static Shape getInstance(String name) {
 
-        switch (type) {
-            case CIRCLE: return new Circle();
-            case SQUARE: return new Square();
-            case TRIANGLE: return new Triangle();
-            default: throw new UnsupportedOperationException();
+        try {
+            return BeanUtils.getBean(PropertyUtils
+                    .getSimpleFactoryProperty(name));
+        } catch (Exception e) {
+            throw new UnsupportedShapeException();
         }
     }
 
-
-    enum Type {
-        /**
-         * 圆形
-         */
-        CIRCLE,
-        /**
-         * 方形
-         */
-        SQUARE,
-        /**
-         * 三角形
-         */
-        TRIANGLE
-    }
 
     class UnsupportedShapeException
             extends RuntimeException {

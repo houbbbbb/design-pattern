@@ -1,0 +1,3 @@
+circle=javapattern.simplefactory.Circle
+square=javapattern.simplefactory.Square
+triangle=javapattern.simplefactory.Triangle
