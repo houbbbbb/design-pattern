@@ -29,7 +29,7 @@ public class PropertyUtils {
 
     public static String simpleFactoryProp(String key) {
 
-        return MAP.get(Type.SIMPLE_FACTORY).o;
+        return ((Map<String, String>)MAP.get(Type.SIMPLE_FACTORY).o).get(key);
     }
 
     enum Type {

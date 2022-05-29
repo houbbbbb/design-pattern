@@ -17,7 +17,8 @@ public class SimpleFactoryTest {
         exc("triangle");
     }
 
-    private void exc(String name) {
+    private void exc(
+            String name) {
 
         Shape shape = Shape.getInstance(name);
         shape.drawl();

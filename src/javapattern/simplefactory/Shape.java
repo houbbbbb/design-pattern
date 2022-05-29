@@ -24,11 +24,11 @@ public interface Shape {
      * @param name
      * @return
      */
-    static Shape getInstance(String name) {
+    static Shape getInstance(
+            String name) {
 
         try {
-            return BeanUtils.getBean(PropertyUtils
-                    .getSimpleFactoryProperty(name));
+            return BeanUtils.getBean(PropertyUtils.simpleFactoryProp(name));
         } catch (Exception e) {
             throw new UnsupportedShapeException();
         }
@@ -39,6 +39,7 @@ public interface Shape {
             extends RuntimeException {
 
         public UnsupportedShapeException() {
+
             super("不支持的类型");
         }
     }

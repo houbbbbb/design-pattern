@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="simple factory">
-      <change afterPath="$PROJECT_DIR$/lib/snakeyaml-1.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/simplefactory.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/FactoryMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/GifPicture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/GifPictureReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/GifPictureReaderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/JpgPicture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/JpgPictureReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/JpgPictureReaderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/PictureReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/PictureReaderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/util/BeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/util/PropertyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/util/TryUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/simplefactory.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/simplefactory.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javapattern/simplefactory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/simplefactory/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javapattern/simplefactory/SimpleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/simplefactory/SimpleFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/simplefactory/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/simplefactory/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/util/PropertyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/util/PropertyUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +121,6 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -270,7 +254,7 @@
       <workItem from="1594789203002" duration="1782000" />
       <workItem from="1594865632734" duration="3964000" />
       <workItem from="1594947824431" duration="2054000" />
-      <workItem from="1653788858444" duration="12891000" />
+      <workItem from="1653788858444" duration="13510000" />
     </task>
     <task id="LOCAL-00001" summary="design-pattern: adapter composite facade">
       <created>1592279999044</created>
@@ -454,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653794349789</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="simple factory">
+      <created>1653806441673</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1653806441673</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
