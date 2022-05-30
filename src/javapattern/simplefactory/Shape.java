@@ -1,8 +1,7 @@
 package javapattern.simplefactory;
 
-import com.sun.istack.internal.NotNull;
 import javapattern.util.BeanUtils;
-import javapattern.util.PropertyUtils;
+import javapattern.util.XMLUtils;
 
 /**
  * @author 86136
@@ -28,7 +27,7 @@ public interface Shape {
             String name) {
 
         try {
-            return BeanUtils.getBean(PropertyUtils.simpleFactoryProp(name));
+            return BeanUtils.getBean(XMLUtils.simpleFactoryProp(name));
         } catch (Exception e) {
             throw new UnsupportedShapeException();
         }

@@ -1,0 +1,6 @@
+
+<beans>
+    <bean name="circle" class="javapattern.simplefactory.Circle"/>
+    <bean name="square" class="javapattern.simplefactory.Square"/>
+    <bean name="triangle" class="javapattern.simplefactory.Triangle"/>
+</beans>
