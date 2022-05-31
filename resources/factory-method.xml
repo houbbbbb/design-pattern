@@ -1,0 +1,6 @@
+<beans>
+    <bean name="gif"
+          class="javapattern.factorymethod.GifPictureReaderFactory"/>
+    <bean name="jpg"
+          class="javapattern.factorymethod.JpgPictureReaderFactory"/>
+</beans>

@@ -1,5 +1,7 @@
 package javapattern.factorymethod;
 
+import javapattern.util.BeanUtils;
+import javapattern.util.ConfigUtils;
 import org.junit.Test;
 
 /**
@@ -10,10 +12,9 @@ public class FactoryMethodTest {
     @Test
     public void test () {
 
-        GifPictureReaderFactory gifPictureReaderFactory =
-                new GifPictureReaderFactory();
-        PictureReader pictureReader =
-                gifPictureReaderFactory.createPicReader();
-
+        PictureReaderFactory.getInstance(ConfigUtils
+                        .getProp("factory-method.factory"))
+                .createPicReader()
+                .readPicture();
     }
 }

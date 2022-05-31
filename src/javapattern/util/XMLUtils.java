@@ -23,11 +23,29 @@ public class XMLUtils {
         MAP = new ConcurrentHashMap<>();
 
         MAP.put(Type.SIMPLE_FACTORY, getRoot("/simple-factory.xml"));
+        MAP.put(Type.FACROTY_METHOD, getRoot("/factory-method.xml"));
     }
 
     public static String simpleFactoryProp(String name) {
 
         Element root = MAP.get(Type.SIMPLE_FACTORY);
+
+        List<Element> elements = root.elements();
+
+        for (Element element : elements) {
+
+            if (name.equals(element.attributeValue("name"))) {
+
+                return element.attributeValue("class");
+            }
+        }
+
+        return null;
+    }
+
+    public static String factoryMethodProp(String name) {
+
+        Element root = MAP.get(Type.FACROTY_METHOD);
 
         List<Element> elements = root.elements();
 
@@ -62,7 +80,12 @@ public class XMLUtils {
         /**
          * 简单工厂方法
          */
-        SIMPLE_FACTORY
+        SIMPLE_FACTORY,
+
+        /**
+         * 工厂方法
+         */
+        FACROTY_METHOD
     }
 
 

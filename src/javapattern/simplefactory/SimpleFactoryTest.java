@@ -1,5 +1,6 @@
 package javapattern.simplefactory;
 
+import javapattern.util.ConfigUtils;
 import org.junit.Test;
 
 /**
@@ -10,11 +11,7 @@ public class SimpleFactoryTest {
     @Test
     public void test() {
 
-        exc("circle");
-
-        exc("square");
-
-        exc("triangle");
+        exc(ConfigUtils.getProp("simple-factory.shape"));
     }
 
     private void exc(

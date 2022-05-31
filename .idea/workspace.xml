@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="simple factory">
-      <change afterPath="$PROJECT_DIR$/lib/dom4j-2.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/simple-factory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/util/XMLUtils.java" afterDir="false" />
+    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="simple factory xml">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/snakeyaml_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17faf5a4bfc83b3d9034873d2b615d77e4ae5e02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22f074e34739e8c4a8e7fd76a6596756e42e8570" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b29bed3be396334dc885bd52b84528edf00bfd3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/601a7a3ae13d79dca1fc2e695b8e21dffa180352" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fc23a3dd3b2f63ff4f2055006d64fbfdb2e8585" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fb4aeb0ecfa8c5cfca8018286106a97750e6d7d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/factory-method.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/util/ConfigUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design-pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/simplefactory.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/simplefactory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/simplefactory/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/util/PropertyUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/simple-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/simple-factory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/factorymethod/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/FactoryMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/factorymethod/GifPicture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/factorymethod/GifPictureReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/GifPictureReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/factorymethod/JpgPicture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/factorymethod/JpgPictureReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/JpgPictureReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/factorymethod/Picture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/factorymethod/PictureReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/PictureReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/factorymethod/PictureReaderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/PictureReaderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/simplefactory/SimpleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/simplefactory/SimpleFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/util/XMLUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/util/XMLUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +156,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -144,13 +166,13 @@
       <recent name="D:\project\design-pattern\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleFactoryTest.test">
-    <configuration name="FilterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.filter.FilterDemo" />
+  <component name="RunManager" selected="JUnit.FactoryMethodTest.test">
+    <configuration name="ConfigUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapattern.util.ConfigUtils" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.filter.*" />
+          <option name="PATTERN" value="javapattern.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleFactoryTest.test" />
-        <item itemvalue="Application.XMLUtils" />
         <item itemvalue="JUnit.FactoryMethodTest.test" />
+        <item itemvalue="JUnit.SimpleFactoryTest.test" />
+        <item itemvalue="Application.ConfigUtils" />
+        <item itemvalue="Application.XMLUtils" />
         <item itemvalue="Application.IteratorDemo" />
-        <item itemvalue="Application.FilterDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +285,9 @@
       <workItem from="1594947824431" duration="2054000" />
       <workItem from="1653788858444" duration="13701000" />
       <workItem from="1653879439713" duration="2446000" />
-      <workItem from="1653891240762" duration="4702000" />
+      <workItem from="1653891240762" duration="4771000" />
+      <workItem from="1653897894921" duration="21000" />
+      <workItem from="1653971840531" duration="7696000" />
     </task>
     <task id="LOCAL-00001" summary="design-pattern: adapter composite facade">
       <created>1592279999044</created>
@@ -461,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653807203500</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="simple factory xml">
+      <created>1653897180924</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1653897180924</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -581,7 +612,13 @@
     <MESSAGE value="filter" />
     <MESSAGE value="iterator" />
     <MESSAGE value="simple factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple factory" />
+    <MESSAGE value="simple factory xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple factory xml" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/design_pattern$SimpleFactoryTest_test.ic" NAME="SimpleFactoryTest.test Coverage Results" MODIFIED="1653979106003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>javapattern.simplefactory.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/designpattern/adapter/AdapterDemo.java">

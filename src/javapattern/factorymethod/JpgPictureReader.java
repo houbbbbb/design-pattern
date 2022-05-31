@@ -7,7 +7,8 @@ public class JpgPictureReader
         implements PictureReader {
 
     @Override
-    public void readPicture(Picture picture) {
+    public void readPicture() {
 
+        System.out.println("read gpg picture");
     }
 }

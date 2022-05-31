@@ -1,0 +1,7 @@
+simple-factory:
+  shape: square
+
+
+
+factory-method:
+  factory: jpg
