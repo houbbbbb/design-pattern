@@ -1,0 +1,10 @@
+<beans>
+    <bean name="symbian"
+          class="javapattern.abstractfactory.SymbianControllerFactory"/>
+
+    <bean name="android"
+          class="javapattern.abstractfactory.AndroidControllerFactory"/>
+
+    <bean name="winMobile"
+          class="javapattern.abstractfactory.WinMobileControllerFactory"/>
+</beans>

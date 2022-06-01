@@ -23,29 +23,28 @@ public class XMLUtils {
         MAP = new ConcurrentHashMap<>();
 
         MAP.put(Type.SIMPLE_FACTORY, getRoot("/simple-factory.xml"));
-        MAP.put(Type.FACROTY_METHOD, getRoot("/factory-method.xml"));
+        MAP.put(Type.FACTORY_METHOD, getRoot("/factory-method.xml"));
+        MAP.put(Type.ABSTRACT_FACTORY, getRoot("/abstract-factory.xml"));
+    }
+
+    public static String abstractFactoryProp(String name) {
+
+        return beanClazzProp(name, Type.ABSTRACT_FACTORY);
     }
 
     public static String simpleFactoryProp(String name) {
 
-        Element root = MAP.get(Type.SIMPLE_FACTORY);
-
-        List<Element> elements = root.elements();
-
-        for (Element element : elements) {
-
-            if (name.equals(element.attributeValue("name"))) {
-
-                return element.attributeValue("class");
-            }
-        }
-
-        return null;
+        return beanClazzProp(name, Type.SIMPLE_FACTORY);
     }
 
     public static String factoryMethodProp(String name) {
 
-        Element root = MAP.get(Type.FACROTY_METHOD);
+        return beanClazzProp(name, Type.FACTORY_METHOD);
+    }
+
+    private static String beanClazzProp(String name, Type type) {
+
+        Element root = MAP.get(type);
 
         List<Element> elements = root.elements();
 
@@ -58,6 +57,7 @@ public class XMLUtils {
         }
 
         return null;
+
     }
 
     private static Element getRoot(String filePath) {
@@ -85,7 +85,9 @@ public class XMLUtils {
         /**
          * 工厂方法
          */
-        FACROTY_METHOD
+        FACTORY_METHOD,
+
+        ABSTRACT_FACTORY
     }
 
 

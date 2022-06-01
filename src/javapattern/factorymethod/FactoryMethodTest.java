@@ -1,6 +1,5 @@
 package javapattern.factorymethod;
 
-import javapattern.util.BeanUtils;
 import javapattern.util.ConfigUtils;
 import org.junit.Test;
 
