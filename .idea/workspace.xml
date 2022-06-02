@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="abstract factory ...">
-      <change afterPath="$PROJECT_DIR$/resources/abstract-factory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/abstractfactory/AndroidControllerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/abstractfactory/AndroidInterfaceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/abstractfactory/AndroidOperationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/abstractfactory/WinMobileControllerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/abstractfactory/WinMobileInterfaceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/abstractfactory/WinMobileOperationController.java" afterDir="false" />
+    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="abstract factory">
+      <change afterPath="$PROJECT_DIR$/src/javapattern/singleton/LoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/singleton/SingletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/factory-method.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/factory-method.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/simple-factory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/simple-factory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/abstractfactory/ControllerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/abstractfactory/ControllerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/factorymethod/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/FactoryMethodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/util/XMLUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/util/XMLUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,22 +141,9 @@
       <recent name="D:\project\design-pattern\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AbstractFactoryTest.test">
+  <component name="RunManager" selected="JUnit.SingletonTest.test">
     <configuration name="ConfigUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javapattern.util.ConfigUtils" />
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javapattern.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XMLUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapattern.util.XMLUtils" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
@@ -228,13 +203,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapattern.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javapattern.singleton" />
+      <option name="MAIN_CLASS_NAME" value="javapattern.singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingletonTest.test" />
         <item itemvalue="JUnit.AbstractFactoryTest.test" />
         <item itemvalue="JUnit.FactoryMethodTest.test" />
         <item itemvalue="JUnit.SimpleFactoryTest.test" />
         <item itemvalue="Application.ConfigUtils" />
-        <item itemvalue="Application.XMLUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +270,10 @@
       <workItem from="1653897894921" duration="21000" />
       <workItem from="1653971840531" duration="9394000" />
       <workItem from="1653983392729" duration="2189000" />
-      <workItem from="1654060580035" duration="1526000" />
+      <workItem from="1654060580035" duration="1689000" />
+      <workItem from="1654062361951" duration="1813000" />
+      <workItem from="1654138977989" duration="14000" />
+      <workItem from="1654150322591" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="design-pattern: adapter composite facade">
       <created>1592279999044</created>
@@ -505,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653985460902</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="abstract factory">
+      <created>1654062153152</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1654062153152</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -602,7 +603,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="facade" />
     <MESSAGE value="bridge" />
     <MESSAGE value="chain of responsibility" />
     <MESSAGE value="singleton" />
@@ -627,7 +627,8 @@
     <MESSAGE value="simple factory xml" />
     <MESSAGE value="factory method" />
     <MESSAGE value="abstract factory ..." />
-    <option name="LAST_COMMIT_MESSAGE" value="abstract factory ..." />
+    <MESSAGE value="abstract factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract factory" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/design_pattern$SimpleFactoryTest_test.ic" NAME="SimpleFactoryTest.test Coverage Results" MODIFIED="1653979106003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
