@@ -27,8 +27,14 @@ public class XMLUtils {
         MAP.put(Type.FACTORY_METHOD, getRoot("/factory-method.xml"));
         MAP.put(Type.ABSTRACT_FACTORY, getRoot("/abstract-factory.xml"));
         MAP.put(Type.BUILDER, getRoot("/builder.xml"));
+        MAP.put(Type.ADAPTER, getRoot("/adapter.xml"));
     }
 
+
+    public static String adapterProp(String name) {
+
+        return beanClazzProp(name, Type.ADAPTER);
+    }
 
     public static BuilderVO builderProp(String name) {
 
@@ -156,7 +162,12 @@ public class XMLUtils {
         /**
          * 构建者
          */
-        BUILDER
+        BUILDER,
+
+        /**
+         * 适配器
+         */
+        ADAPTER
     }
 
 
