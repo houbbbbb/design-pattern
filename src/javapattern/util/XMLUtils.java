@@ -1,5 +1,6 @@
 package javapattern.util;
 
+import javapattern.builder.BuilderVO;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
@@ -25,6 +26,66 @@ public class XMLUtils {
         MAP.put(Type.SIMPLE_FACTORY, getRoot("/simple-factory.xml"));
         MAP.put(Type.FACTORY_METHOD, getRoot("/factory-method.xml"));
         MAP.put(Type.ABSTRACT_FACTORY, getRoot("/abstract-factory.xml"));
+        MAP.put(Type.BUILDER, getRoot("/builder.xml"));
+    }
+
+
+    public static BuilderVO builderProp(String name) {
+
+        Element root = MAP.get(Type.BUILDER);
+
+        List<Element> elements = root.elements();
+
+        for (Element element : elements) {
+
+            if (equalsName(name, element)) {
+
+                BuilderVO builderVO = new BuilderVO();
+
+                String classname = stringClass(element);
+
+                builderVO.setClassname(classname);
+
+                List<Element> elementList = element.elements();
+
+                for (Element element1 : elementList) {
+
+                    if(equalsName("menu", element1)) {
+                        builderVO.setMenu(booleanValue(element1));
+                    } else if (equalsName("list", element1)) {
+                        builderVO.setList(booleanValue(element1));
+                    } else if (equalsName("win", element1)) {
+                        builderVO.setWin(booleanValue(element1));
+                    } else if (equalsName("bar", element1)) {
+                        builderVO.setBar(booleanValue(element1));
+                    }
+                }
+
+                return builderVO;
+            }
+        }
+
+        throw new RuntimeException("该类不存在");
+    }
+
+    private static String stringValue(Element element) {
+
+        return element.attributeValue("value");
+    }
+
+    private static String stringClass(Element element) {
+
+        return element.attributeValue("class");
+    }
+
+    private static boolean booleanValue(Element element) {
+
+        return Boolean.parseBoolean(stringValue(element));
+    }
+
+    private static boolean equalsName(String name, Element element) {
+
+        return name.equals(element.attributeValue("name"));
     }
 
     public static String abstractFactoryProp(String name) {
@@ -50,9 +111,9 @@ public class XMLUtils {
 
         for (Element element : elements) {
 
-            if (name.equals(element.attributeValue("name"))) {
+            if (equalsName(name, element)) {
 
-                return element.attributeValue("class");
+                return stringClass(element);
             }
         }
 
@@ -87,12 +148,22 @@ public class XMLUtils {
          */
         FACTORY_METHOD,
 
-        ABSTRACT_FACTORY
+        /**
+         * 抽象工厂
+         */
+        ABSTRACT_FACTORY,
+
+        /**
+         * 构建者
+         */
+        BUILDER
     }
 
 
     public static void main(String[] args) throws Exception {
 
         System.out.println(simpleFactoryProp("square"));
+
+        System.out.println(builderProp("full"));
     }
 }

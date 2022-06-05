@@ -16,4 +16,14 @@ public class SingletonTest {
         assert l1 == l2;
         assert l1.equals(l2);
     }
+
+    @Test
+    public void test2() {
+
+        LoadBalancer lb = LoadBalancer.getInstance();
+
+        lb.setName("hello");
+
+        lb.print();
+    }
 }

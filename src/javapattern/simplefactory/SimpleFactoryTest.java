@@ -11,7 +11,7 @@ public class SimpleFactoryTest {
     @Test
     public void test() {
 
-        exc(ConfigUtils.getProp("simple-factory.shape"));
+        exc("simple-factory.shape");
     }
 
     private void exc(

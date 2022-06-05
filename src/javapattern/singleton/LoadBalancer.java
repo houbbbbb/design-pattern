@@ -7,6 +7,19 @@ public class LoadBalancer {
 
     private LoadBalancer() {}
 
+    private String name;
+
+    public void setName(
+            String name) {
+
+        this.name = name;
+    }
+
+    public void print() {
+
+        System.out.println("my name is " + name);
+    }
+
     public static LoadBalancer getInstance() {
 
         return Holder.LOAD_BALANCER;

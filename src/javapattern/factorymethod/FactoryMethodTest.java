@@ -11,8 +11,7 @@ public class FactoryMethodTest {
     @Test
     public void test () {
 
-        PictureReaderFactory.getInstance(ConfigUtils
-                        .getProp("factory-method.factory"))
+        PictureReaderFactory.getInstance("factory-method.factory")
                 .createPicReader()
                 .readPicture();
     }

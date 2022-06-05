@@ -1,0 +1,28 @@
+<beans>
+    <bean name="full"
+          class="javapattern.builder.FullVideoPlayerBuilder">
+
+        <properties name="menu" value="true" />
+        <properties name="list" value="true" />
+        <properties name="win" value="true" />
+        <properties name="bar" value="true" />
+    </bean>
+
+    <bean name="simple"
+          class="javapattern.builder.SimpleVideoPlayerBuilder">
+
+        <properties name="menu" value="false" />
+        <properties name="list" value="false" />
+        <properties name="win" value="true" />
+        <properties name="bar" value="true" />
+    </bean>
+
+    <bean name="member"
+          class="javapattern.builder.MemberVideoPlayerBuilder">
+
+        <properties name="menu" value="false" />
+        <properties name="list" value="true" />
+        <properties name="win" value="true" />
+        <properties name="bar" value="true" />
+    </bean>
+</beans>

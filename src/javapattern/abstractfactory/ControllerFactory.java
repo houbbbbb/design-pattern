@@ -1,6 +1,7 @@
 package javapattern.abstractfactory;
 
 import javapattern.util.BeanUtils;
+import javapattern.util.ConfigUtils;
 import javapattern.util.XMLUtils;
 
 /**
@@ -15,7 +16,8 @@ public interface ControllerFactory {
      */
     static ControllerFactory getInstance(String name) {
 
-        return BeanUtils.getBean(XMLUtils.abstractFactoryProp(name));
+        return BeanUtils.getBean(XMLUtils.abstractFactoryProp(ConfigUtils
+                .getProp(name)));
     }
 
     /**

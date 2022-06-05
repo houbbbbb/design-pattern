@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="abstract factory">
-      <change afterPath="$PROJECT_DIR$/src/javapattern/singleton/LoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/singleton/SingletonTest.java" afterDir="false" />
+    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="singleton">
+      <change afterPath="$PROJECT_DIR$/resources/builder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/builder/BuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/builder/BuilderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/builder/FullVideoPlayerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/builder/MemberVideoPlayerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/builder/SimpleVideoPlayerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/builder/VideoPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/builder/VideoPlayerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/builder/VideoPlayerDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/prototype/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/prototype/Customer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/prototype/Customer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/prototype/PrototypeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/abstractfactory/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/abstractfactory/ControllerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/abstractfactory/ControllerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/factorymethod/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/FactoryMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/factorymethod/PictureReaderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/factorymethod/PictureReaderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/simplefactory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/simplefactory/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/simplefactory/SimpleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/simplefactory/SimpleFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/singleton/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/singleton/LoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/singleton/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/util/XMLUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/util/XMLUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +100,9 @@
     <option name="height" value="960" />
   </component>
   <component name="ProjectId" id="29ooZNuNuurxrdIkfVPMaTBv7uz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -140,10 +163,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\design-pattern\lib" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javapattern.prototype" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.SingletonTest.test">
-    <configuration name="ConfigUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javapattern.util.ConfigUtils" />
+  <component name="RunManager" selected="JUnit.SimpleFactoryTest.test">
+    <configuration name="XMLUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapattern.util.XMLUtils" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
@@ -165,6 +191,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="javapattern.abstractfactory" />
       <option name="MAIN_CLASS_NAME" value="javapattern.abstractfactory.AbstractFactoryTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuilderTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapattern.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javapattern.builder" />
+      <option name="MAIN_CLASS_NAME" value="javapattern.builder.BuilderTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -203,29 +245,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javapattern.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javapattern.singleton" />
-      <option name="MAIN_CLASS_NAME" value="javapattern.singleton.SingletonTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SingletonTest.test" />
-        <item itemvalue="JUnit.AbstractFactoryTest.test" />
-        <item itemvalue="JUnit.FactoryMethodTest.test" />
         <item itemvalue="JUnit.SimpleFactoryTest.test" />
-        <item itemvalue="Application.ConfigUtils" />
+        <item itemvalue="JUnit.FactoryMethodTest.test" />
+        <item itemvalue="JUnit.AbstractFactoryTest.test" />
+        <item itemvalue="JUnit.BuilderTest.test" />
+        <item itemvalue="Application.XMLUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +299,10 @@
       <workItem from="1654060580035" duration="1689000" />
       <workItem from="1654062361951" duration="1813000" />
       <workItem from="1654138977989" duration="14000" />
-      <workItem from="1654150322591" duration="1704000" />
+      <workItem from="1654150322591" duration="1789000" />
+      <workItem from="1654243468556" duration="91000" />
+      <workItem from="1654251615024" duration="7000" />
+      <workItem from="1654397123235" duration="13275000" />
     </task>
     <task id="LOCAL-00001" summary="design-pattern: adapter composite facade">
       <created>1592279999044</created>
@@ -506,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654062153152</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="singleton">
+      <created>1654154307826</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1654154307826</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -605,7 +641,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bridge" />
     <MESSAGE value="chain of responsibility" />
-    <MESSAGE value="singleton" />
     <MESSAGE value="observer" />
     <MESSAGE value="mediator" />
     <MESSAGE value="builder" />
@@ -628,7 +663,8 @@
     <MESSAGE value="factory method" />
     <MESSAGE value="abstract factory ..." />
     <MESSAGE value="abstract factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="abstract factory" />
+    <MESSAGE value="singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="singleton" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/design_pattern$SimpleFactoryTest_test.ic" NAME="SimpleFactoryTest.test Coverage Results" MODIFIED="1653979106003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

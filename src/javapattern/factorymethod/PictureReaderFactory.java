@@ -2,6 +2,7 @@ package javapattern.factorymethod;
 
 import javapattern.simplefactory.Shape;
 import javapattern.util.BeanUtils;
+import javapattern.util.ConfigUtils;
 import javapattern.util.XMLUtils;
 
 /**
@@ -24,7 +25,8 @@ public interface PictureReaderFactory {
             String name) {
 
         try {
-            return BeanUtils.getBean(XMLUtils.factoryMethodProp(name));
+            return BeanUtils.getBean(XMLUtils.factoryMethodProp(ConfigUtils
+                    .getProp(name)));
         } catch (Exception e) {
             throw new UnsupportedFactoryException();
         }

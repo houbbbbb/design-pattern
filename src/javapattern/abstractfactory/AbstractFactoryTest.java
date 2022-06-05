@@ -11,8 +11,8 @@ public class AbstractFactoryTest {
     @Test
     public void test() {
 
-        ControllerFactory factory = ControllerFactory.getInstance(ConfigUtils
-                .getProp("abstract-factory.factory"));
+        ControllerFactory factory = ControllerFactory
+                .getInstance("abstract-factory.factory");
 
         factory.createInterfaceController().control();
         factory.createOperationController().control();

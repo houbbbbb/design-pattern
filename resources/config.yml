@@ -8,3 +8,6 @@ factory-method:
 
 abstract-factory:
   factory: winMobile
+
+builder:
+  builder: member

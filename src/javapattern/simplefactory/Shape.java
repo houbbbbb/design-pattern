@@ -1,6 +1,7 @@
 package javapattern.simplefactory;
 
 import javapattern.util.BeanUtils;
+import javapattern.util.ConfigUtils;
 import javapattern.util.XMLUtils;
 
 /**
@@ -27,7 +28,8 @@ public interface Shape {
             String name) {
 
         try {
-            return BeanUtils.getBean(XMLUtils.simpleFactoryProp(name));
+            return BeanUtils.getBean(XMLUtils.simpleFactoryProp(ConfigUtils
+                    .getProp(name)));
         } catch (Exception e) {
             throw new UnsupportedShapeException();
         }
