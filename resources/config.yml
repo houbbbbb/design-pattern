@@ -16,3 +16,9 @@ builder:
 
 adapter:
   adapter: db
+
+
+bridge:
+  converter: converter
+  db: sqlServer
+  ff: xml

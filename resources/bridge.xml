@@ -1,0 +1,22 @@
+<beans>
+    <bean name="mysql"
+          class="javapattern.bridge.Mysql"/>
+
+    <bean name="oracle"
+          class="javapattern.bridge.Oracle"/>
+
+    <bean name="sqlServer"
+          class="javapattern.bridge.SqlServer"/>
+
+    <bean name="txt"
+          class="javapattern.bridge.Txt"/>
+
+    <bean name="pdf"
+          class="javapattern.bridge.Pdf"/>
+
+    <bean name="xml"
+          class="javapattern.bridge.Xml"/>
+
+    <bean name="converter"
+          class="javapattern.bridge.ConverterImpl"/>
+</beans>
