@@ -63,3 +63,37 @@ h
 8src/javapattern/abstractfactory/OperationController.java,f\9\f9fbd6bae312b095511b9b2267eb3a9ac210c1b2
 h
 8src/javapattern/abstractfactory/AbstractFactoryTest.java,8\b\8bac6ec7a664eb074c0f42e395da9db9c133b1e8
+R
+"src/javapattern/util/XMLUtils.java,b\8\b8145204882c7173243eaf94c82364304c42234d
+V
+&src/javapattern/bridge/BridgeTest.java,7\d\7d5cf0e71153a37724863ded8496441dd812ecc2
+U
+%src/javapattern/bridge/Converter.java,9\e\9eb33047f2712f0d65ce6addf0bb0db15e116cdb
+Y
+)src/javapattern/bridge/ConverterImpl.java,6\5\6537041c415260d9d04b741622a3a5b861400afd
+U
+%src/javapattern/util/ConfigUtils.java,f\b\fb17c7bc845c3bec4607585910d7b0b2db8a693c
+Q
+!src/javapattern/bridge/Mysql.java,f\e\feda90214e0a1cbeb48614d0c95f3bea415475f2
+R
+"src/javapattern/bridge/Oracle.java,2\3\23fc58a5323f8613a1ef29a978b50229287ba4fb
+N
+src/javapattern/bridge/Db.java,9\1\91bd33878810b250471997b41b4f07e32c5dc54b
+N
+src/javapattern/bridge/Ff.java,f\a\fa6e381658585e783f17645b66c0aeabdef315f0
+O
+src/javapattern/bridge/Xml.java,3\4\3449788d9fb41b5331fcd8e73df802f1f9ef6f34
+O
+src/javapattern/bridge/Pdf.java,a\c\ac801c1f2a6a14be5a07db5d1ad8574a27e679a4
+U
+%src/javapattern/bridge/SqlServer.java,d\6\d63d83c6a6b983325d82b435089826feb29f01e8
+O
+src/javapattern/bridge/Txt.java,4\f\4f81c6871e0a95f623453546df40b44d3fe7c1d1
+J
+.idea/dictionaries/hbw.xml,9\9\99bc5e3ec273927da1ed42f3345b00e953a9e5d6
+R
+"src/javapattern/bridge/Bridge.java,7\0\70e1c64fee8fd4fa56931522fa6bff74d4029337
+B
+design-pattern.iml,6\f\6fc23a3dd3b2f63ff4f2055006d64fbfdb2e8585
+Y
+).idea/libraries/cglib_nodep_2_2_2__2_.xml,e\b\eb460c6aa723fce91b06717cbb20a7129a62ede8

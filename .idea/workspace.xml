@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="clone&#10;builder">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/hbw.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/cglib_nodep_2_2_2__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/21c063b455f56b165db547a532f93cd86a3a98f8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/24a1494f69694b8ad5a6b7e8780b0654acf0c043" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3ce6de17d8010fb691adf50563ba2efaaab89e4a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/40232515209034413e7e0249cf3d403b01d79f17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52a5279e589f36223622a2f256330ab849b0fdae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80c68f40b5b066398de7ff3fc2e817de639ebf82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bac6ec7a664eb074c0f42e395da9db9c133b1e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/983fd358ac3642ef56c7b9fd64067602bf85d2a8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cd6eb02d06e6db23b16e790bef436619d7bde6e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a6c4fcff765147993c3a5d2e0184665a349cd0e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a78edb23ba96e137e0b4dab6cd9d03bbee38601d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab68fc9e9c37f4a0094df4e7fcef30126a447cf2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca82fcc86518ecc530c36864ec7a7d2c7de72aaf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce858112d25a256f41c19f02bb33c6ac230776a1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaea6da4d8ca39882210fdfa3a519f5d93a27579" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9fbd6bae312b095511b9b2267eb3a9ac210c1b2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/bridge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/Bridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/BridgeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/ConverterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/Db.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/Ff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/Mysql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/Oracle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/Pdf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/SqlServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/Txt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/bridge/Xml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="Bridge">
+      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/ComponentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/CompositeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/Panel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/util/ConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/util/ConfigUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/util/XMLUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/util/XMLUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -182,32 +152,14 @@
       <recent name="javapattern.prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BridgeTest.test">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CompositeTest.test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AbstractFactoryTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javapattern.abstractfactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javapattern.abstractfactory" />
-      <option name="MAIN_CLASS_NAME" value="javapattern.abstractfactory.AbstractFactoryTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -238,6 +190,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="javapattern.bridge" />
       <option name="MAIN_CLASS_NAME" value="javapattern.bridge.BridgeTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompositeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapattern.compotite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javapattern.compotite" />
+      <option name="MAIN_CLASS_NAME" value="javapattern.compotite.CompositeTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -278,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompositeTest.test" />
         <item itemvalue="JUnit.BridgeTest.test" />
         <item itemvalue="JUnit.AdapterTest.test" />
         <item itemvalue="JUnit.SimpleFactoryTest.test" />
         <item itemvalue="JUnit.FactoryMethodTest.test" />
-        <item itemvalue="JUnit.AbstractFactoryTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +302,8 @@
       <workItem from="1654243468556" duration="91000" />
       <workItem from="1654251615024" duration="7000" />
       <workItem from="1654397123235" duration="18646000" />
-      <workItem from="1654834431036" duration="4530000" />
+      <workItem from="1654834431036" duration="4626000" />
+      <workItem from="1655099731369" duration="3596000" />
     </task>
     <task id="LOCAL-00001" summary="design-pattern: adapter composite facade">
       <created>1592279999044</created>
@@ -588,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654416959882</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Bridge">
+      <created>1654846120897</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1654846120899</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -685,7 +661,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="observer" />
     <MESSAGE value="mediator" />
     <MESSAGE value="builder" />
     <MESSAGE value="factory" />
@@ -710,7 +685,8 @@
     <MESSAGE value="singleton" />
     <MESSAGE value="clone" />
     <MESSAGE value="clone&#10;builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="clone&#10;builder" />
+    <MESSAGE value="Bridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bridge" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/design_pattern$SimpleFactoryTest_test.ic" NAME="SimpleFactoryTest.test Coverage Results" MODIFIED="1653979106003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
