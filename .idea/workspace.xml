@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="Bridge">
-      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/ComponentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/CompositeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/Panel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/compotite/Window.java" afterDir="false" />
+    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="Composite">
+      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/DecoratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/ModSecretDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/ReverseSecretDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/Secret.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/SecretImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/ShiftSecretDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -152,14 +151,16 @@
       <recent name="javapattern.prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CompositeTest.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DecoratorTest.test1">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,33 +213,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethodTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DecoratorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapattern.factorymethod.*" />
+          <option name="PATTERN" value="javapattern.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javapattern.factorymethod" />
-      <option name="MAIN_CLASS_NAME" value="javapattern.factorymethod.FactoryMethodTest" />
+      <option name="PACKAGE_NAME" value="javapattern.decorator" />
+      <option name="MAIN_CLASS_NAME" value="javapattern.decorator.DecoratorTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFactoryTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DecoratorTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapattern.simplefactory.*" />
+          <option name="PATTERN" value="javapattern.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javapattern.simplefactory" />
-      <option name="MAIN_CLASS_NAME" value="javapattern.simplefactory.SimpleFactoryTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="javapattern.decorator" />
+      <option name="MAIN_CLASS_NAME" value="javapattern.decorator.DecoratorTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -246,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DecoratorTest.test1" />
+        <item itemvalue="JUnit.DecoratorTest.test" />
         <item itemvalue="JUnit.CompositeTest.test" />
         <item itemvalue="JUnit.BridgeTest.test" />
         <item itemvalue="JUnit.AdapterTest.test" />
-        <item itemvalue="JUnit.SimpleFactoryTest.test" />
-        <item itemvalue="JUnit.FactoryMethodTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +304,8 @@
       <workItem from="1654251615024" duration="7000" />
       <workItem from="1654397123235" duration="18646000" />
       <workItem from="1654834431036" duration="4626000" />
-      <workItem from="1655099731369" duration="3596000" />
+      <workItem from="1655099731369" duration="3734000" />
+      <workItem from="1655177224012" duration="4047000" />
     </task>
     <task id="LOCAL-00001" summary="design-pattern: adapter composite facade">
       <created>1592279999044</created>
@@ -564,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654846120899</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Composite">
+      <created>1655104790159</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1655104790159</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -661,7 +670,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mediator" />
     <MESSAGE value="builder" />
     <MESSAGE value="factory" />
     <MESSAGE value="Factory" />
@@ -686,7 +694,8 @@
     <MESSAGE value="clone" />
     <MESSAGE value="clone&#10;builder" />
     <MESSAGE value="Bridge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bridge" />
+    <MESSAGE value="Composite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Composite" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/design_pattern$SimpleFactoryTest_test.ic" NAME="SimpleFactoryTest.test Coverage Results" MODIFIED="1653979106003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
