@@ -182,7 +182,12 @@ public class XMLUtils {
         /**
          * bridge
          */
-        BRIDGE
+        BRIDGE,
+
+        /**
+         * 代理
+         */
+        PROXY
     }
 
 
