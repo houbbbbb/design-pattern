@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="Composite">
-      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/DecoratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/ModSecretDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/ReverseSecretDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/Secret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/SecretImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/decorator/ShiftSecretDecorator.java" afterDir="false" />
+    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="命令模式">
+      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/ActionExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/RangeExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/TypeExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -31,6 +30,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,95 +158,82 @@
       <recent name="javapattern.prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DecoratorTest.test1">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdapterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CommandTest.test">
+    <configuration name="ChainOfResponsibilityTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapattern.adapter.*" />
+          <option name="PATTERN" value="javapattern.chainofresposibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javapattern.adapter" />
-      <option name="MAIN_CLASS_NAME" value="javapattern.adapter.AdapterTest" />
+      <option name="PACKAGE_NAME" value="javapattern.chainofresposibility" />
+      <option name="MAIN_CLASS_NAME" value="javapattern.chainofresposibility.ChainOfResponsibilityTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BridgeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommandTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapattern.bridge.*" />
+          <option name="PATTERN" value="javapattern.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javapattern.bridge" />
-      <option name="MAIN_CLASS_NAME" value="javapattern.bridge.BridgeTest" />
+      <option name="PACKAGE_NAME" value="javapattern.command" />
+      <option name="MAIN_CLASS_NAME" value="javapattern.command.CommandTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompositeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlyweightTest.testOuterState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapattern.compotite.*" />
+          <option name="PATTERN" value="javapattern.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javapattern.compotite" />
-      <option name="MAIN_CLASS_NAME" value="javapattern.compotite.CompositeTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="javapattern.flyweight" />
+      <option name="MAIN_CLASS_NAME" value="javapattern.flyweight.FlyweightTest" />
+      <option name="METHOD_NAME" value="testOuterState" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoratorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProxyTest.proxyClazz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapattern.decorator.*" />
+          <option name="PATTERN" value="javapattern.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javapattern.decorator" />
-      <option name="MAIN_CLASS_NAME" value="javapattern.decorator.DecoratorTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="javapattern.proxy" />
+      <option name="MAIN_CLASS_NAME" value="javapattern.proxy.ProxyTest" />
+      <option name="METHOD_NAME" value="proxyClazz" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoratorTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProxyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapattern.decorator.*" />
+          <option name="PATTERN" value="javapattern.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javapattern.decorator" />
-      <option name="MAIN_CLASS_NAME" value="javapattern.decorator.DecoratorTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="javapattern.proxy" />
+      <option name="MAIN_CLASS_NAME" value="javapattern.proxy.ProxyTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -247,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DecoratorTest.test1" />
-        <item itemvalue="JUnit.DecoratorTest.test" />
-        <item itemvalue="JUnit.CompositeTest.test" />
-        <item itemvalue="JUnit.BridgeTest.test" />
-        <item itemvalue="JUnit.AdapterTest.test" />
+        <item itemvalue="JUnit.CommandTest.test" />
+        <item itemvalue="JUnit.ChainOfResponsibilityTest.test" />
+        <item itemvalue="JUnit.ProxyTest.test" />
+        <item itemvalue="JUnit.ProxyTest.proxyClazz" />
+        <item itemvalue="JUnit.FlyweightTest.testOuterState" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +299,18 @@
       <workItem from="1654397123235" duration="18646000" />
       <workItem from="1654834431036" duration="4626000" />
       <workItem from="1655099731369" duration="3734000" />
-      <workItem from="1655177224012" duration="4047000" />
+      <workItem from="1655177224012" duration="4081000" />
+      <workItem from="1655190117165" duration="19000" />
+      <workItem from="1655273122403" duration="1637000" />
+      <workItem from="1655360516109" duration="3660000" />
+      <workItem from="1655424057685" duration="267000" />
+      <workItem from="1655445205374" duration="3190000" />
+      <workItem from="1655449827965" duration="43000" />
+      <workItem from="1655705956669" duration="4646000" />
+      <workItem from="1655723623454" duration="27000" />
+      <workItem from="1655789686039" duration="2478000" />
+      <workItem from="1655805039482" duration="979000" />
+      <workItem from="1655882639673" duration="1529000" />
     </task>
     <task id="LOCAL-00001" summary="design-pattern: adapter composite facade">
       <created>1592279999044</created>
@@ -573,7 +578,49 @@
       <option name="project" value="LOCAL" />
       <updated>1655104790159</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Decorator">
+      <created>1655189870501</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1655189870501</updated>
+    </task>
+    <task id="LOCAL-00040" summary="facade">
+      <created>1655275384715</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1655275384715</updated>
+    </task>
+    <task id="LOCAL-00041" summary="享元模式">
+      <created>1655372880385</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1655372880385</updated>
+    </task>
+    <task id="LOCAL-00042" summary="代理模式">
+      <created>1655449648200</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1655449648200</updated>
+    </task>
+    <task id="LOCAL-00043" summary="责任链模式">
+      <created>1655712087063</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1655712087063</updated>
+    </task>
+    <task id="LOCAL-00044" summary="命令模式">
+      <created>1655793908884</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1655793908884</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -670,12 +717,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="builder" />
-    <MESSAGE value="factory" />
-    <MESSAGE value="Factory" />
-    <MESSAGE value="AbstractFactory" />
-    <MESSAGE value="Prototype" />
-    <MESSAGE value="Memento" />
     <MESSAGE value="Flyweight" />
     <MESSAGE value="nio" />
     <MESSAGE value="state" />
@@ -695,7 +736,13 @@
     <MESSAGE value="clone&#10;builder" />
     <MESSAGE value="Bridge" />
     <MESSAGE value="Composite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Composite" />
+    <MESSAGE value="Decorator" />
+    <MESSAGE value="facade" />
+    <MESSAGE value="享元模式" />
+    <MESSAGE value="代理模式" />
+    <MESSAGE value="责任链模式" />
+    <MESSAGE value="命令模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="命令模式" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/design_pattern$SimpleFactoryTest_test.ic" NAME="SimpleFactoryTest.test Coverage Results" MODIFIED="1653979106003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
