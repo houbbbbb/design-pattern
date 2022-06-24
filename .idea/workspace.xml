@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="命令模式">
-      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/ActionExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/RangeExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/TypeExpression.java" afterDir="false" />
+    <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="解释器 。。。">
+      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/Tokenizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/ActionExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/ActionExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/RangeExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/RangeExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/TypeExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/TypeExpression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -310,7 +311,8 @@
       <workItem from="1655723623454" duration="27000" />
       <workItem from="1655789686039" duration="2478000" />
       <workItem from="1655805039482" duration="979000" />
-      <workItem from="1655882639673" duration="1529000" />
+      <workItem from="1655882639673" duration="1616000" />
+      <workItem from="1656051000714" duration="7091000" />
     </task>
     <task id="LOCAL-00001" summary="design-pattern: adapter composite facade">
       <created>1592279999044</created>
@@ -620,7 +622,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655793908884</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="解释器 。。。">
+      <created>1655886669715</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1655886669715</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -717,7 +726,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Flyweight" />
     <MESSAGE value="nio" />
     <MESSAGE value="state" />
     <MESSAGE value="strategy" />
@@ -742,7 +750,8 @@
     <MESSAGE value="代理模式" />
     <MESSAGE value="责任链模式" />
     <MESSAGE value="命令模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="命令模式" />
+    <MESSAGE value="解释器 。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="解释器 。。。" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/design_pattern$SimpleFactoryTest_test.ic" NAME="SimpleFactoryTest.test Coverage Results" MODIFIED="1653979106003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
