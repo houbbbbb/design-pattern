@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32cceeb2-b5f7-4a47-b964-d060722cca15" name="Default Changelist" comment="解释器 。。。">
-      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/Tokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/Db.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/From.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/InterpretTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapattern/interpret/To.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/ActionExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/ActionExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/RangeExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/RangeExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/TypeExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/TypeExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/ActionExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/RangeExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/Sentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/Tokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/Tokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javapattern/interpret/TypeExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javapattern/interpret/Table.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +162,18 @@
       <recent name="javapattern.prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CommandTest.test">
+  <component name="RunManager" selected="JUnit.InterpretTest.test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChainOfResponsibilityTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern" />
       <extension name="coverage">
@@ -192,17 +206,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyweightTest.testOuterState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InterpretTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapattern.flyweight.*" />
+          <option name="PATTERN" value="javapattern.interpret.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javapattern.flyweight" />
-      <option name="MAIN_CLASS_NAME" value="javapattern.flyweight.FlyweightTest" />
-      <option name="METHOD_NAME" value="testOuterState" />
+      <option name="PACKAGE_NAME" value="javapattern.interpret" />
+      <option name="MAIN_CLASS_NAME" value="javapattern.interpret.InterpretTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InterpretTest.test" />
         <item itemvalue="JUnit.CommandTest.test" />
         <item itemvalue="JUnit.ChainOfResponsibilityTest.test" />
         <item itemvalue="JUnit.ProxyTest.test" />
         <item itemvalue="JUnit.ProxyTest.proxyClazz" />
-        <item itemvalue="JUnit.FlyweightTest.testOuterState" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +326,8 @@
       <workItem from="1655789686039" duration="2478000" />
       <workItem from="1655805039482" duration="979000" />
       <workItem from="1655882639673" duration="1616000" />
-      <workItem from="1656051000714" duration="7091000" />
+      <workItem from="1656051000714" duration="8110000" />
+      <workItem from="1656302802330" duration="3864000" />
     </task>
     <task id="LOCAL-00001" summary="design-pattern: adapter composite facade">
       <created>1592279999044</created>
@@ -629,7 +644,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655886669715</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="解释器 。。。">
+      <created>1656062125982</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1656062125982</updated>
+    </task>
+    <task id="LOCAL-00047" summary="解释器 。。。">
+      <created>1656062460983</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1656062460983</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
