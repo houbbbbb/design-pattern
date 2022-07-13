@@ -6,14 +6,16 @@ package javapattern.visitor;
 public interface Visitor {
 
     /**
-     * @param concreteElementA
+     * 访问教师
+     * @param teacher
      */
     void visit(
-            ConcreteElementA concreteElementA);
+            Teacher teacher);
 
     /**
-     * @param concreteElementB
+     * 访问学生
+     * @param student
      */
     void visit(
-            ConcreteElementB concreteElementB);
+            Student student);
 }
